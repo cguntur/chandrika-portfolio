@@ -1,0 +1,16 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --bck_light: #DDD5C3;
+    --bck_dark: #B7B2A0;
+    --text_color: #0D0504;
+    --header_text: #61362E;
+    --link_color: #CC9F2F;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+

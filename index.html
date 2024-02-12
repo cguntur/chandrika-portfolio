@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandrika Sista - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/tablet.css" />
+    <link rel="stylesheet" type="text/css" href="assets/desktop.css" />
 </head>
 <body>
     <header>
-        <h1>Chandrika Sista</h1>
+        <h1><a href="#top">Chandrika Sista</a></h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -17,22 +22,59 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="top">
         <section id="intro">
-            <h2>I am a full stack web developer with experience in building custom WordPress websites.</h2>
+            <h2 class="split_half">Hi, My name is Chandrika! Welcome to my website!!</h2>
+            <div class="split_half">
+                <figure>
+                    <img src="images/chandrika.jpg" alt="Headshot of Chandrika Sista" />
+                </figure>
+            </div>
         </section>
         <section id="about">
-            <h2>About Me</h2>
-        </section>
+            <h2 class="split_half">About Me</h2>
+            <p class="split_half">I am a full stack WordPress developer living in the bay area and have been building WordPress sites for over 10 years. I work with clients to setup websites using pre-existing WordPress themes or design and build custom websites from scratch.</p>
+        </section><!--end of About Section-->
         <section id="work">
             <h2>My Work</h2>
-        </section>
+            <div class="portfolio_project_section">
+                <div class="portfolio_card">
+                    <h3>Food Blog Design</h3>
+                    <figure>
+                        <a href=""><img class="project_image" src="images/food_blog_layout.png" alt="WordPress food blog layout" /></a>
+                        <figcaption>Layout for a food blog website</figcaption>
+                    </figure>
+                </div><!--end of portfolio card-->
+                <div class="portfolio_card">
+                    <h3>WP Category Dropdown</h3>
+                    <figure>
+                        <a href=""><img class="project_image" src="images/wp_cat_dropdown.png" alt="WP Category Drodown Screenshot" /></a>
+                        <figcaption>WP Category Dropdown Plugin</figcaption>
+                    </figure>
+                </div><!--end of portfolio card-->
+                <div class="portfolio_card">
+                    <h3>Chamber Dashboard Plugins</h3>
+                    <figure>
+                        <a href=""><img class="project_image" src="images/chamber_dashboard.png" alt="Chamber Dashboard Plugins Screenshot" /></a>
+                        <figcaption>Chamber Dashboard Plugins</figcaption>
+                    </figure>
+                </div><!--end of portfolio card-->
+            </div>
+        </section><!--end of Work Section-->
         <section id="contact">
-            <h2>Contact Me</h2>
-        </section>
+            <h2 class="split_half">Contact Me</h2>
+            <div class="split_half">
+                <ul>
+                    <li class="email">Email: <a href="mailto:test@test.com">test@test.com</a></li>
+                    <li class="phone">Phone: <a href="tel:123-456-7890">123-456-7890</a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/chandrikaguntur/" target=""_blank>Linkedin</a></li>
+                    <li class="github"><a href="https://github.com/cguntur" target=""_blank>Github</a></li>
+                </ul>
+            </div>
+        </section><!--end of Contact Section-->
     </main>
     <footer>
-
+        <p>&copy; Chandrika Sista 2024</p>
     </footer>
     
 </body>

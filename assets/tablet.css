@@ -3,8 +3,25 @@
         padding-top: 100px;
     }
 
+    nav ul.non_mobile{
+        display: flex;
+        
+    }
+
+    nav ul li{
+        padding-bottom: 0px;
+    }
+
+    #menuToggle{
+        display: none;
+    }
+
     .split_half{
         flex-basis: 50%;
+    }
+
+    main section{
+        align-items: center;
     }
 
 }

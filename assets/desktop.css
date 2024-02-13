@@ -1,4 +1,8 @@
 @media screen and (min-width: 992px){
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     nav ul li a{
         font-size: 20px;
@@ -12,8 +16,14 @@
         border-radius: 5px;
     }
 
+    main section{
+        align-items: center;
+        min-height: 400px;
+    }
+
     main section h2{
         flex-basis: 50%;
+        font-size: 60px;
     }
 
     #intro h2{
@@ -21,9 +31,11 @@
         flex-basis: 50%;
         justify-content: center;
         vertical-align: middle;
+        max-width: 600px;
     }
 
     #intro img{
         width: 300px;
     }
+
 }

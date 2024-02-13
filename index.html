@@ -14,12 +14,24 @@
 <body>
     <header>
         <h1><a href="#top">Chandrika Sista</a></h1>
-        <nav>
-            <ul>
+        <nav role="navigation">
+            <ul class="non_mobile">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#work">My Work</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu" class="mobile">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div><!--end menutoggle-->
         </nav>
     </header>
     <main id="top">

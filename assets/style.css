@@ -22,6 +22,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--bck_light);
     font-family: "Open Sans", sans-serif;
@@ -269,17 +273,15 @@ main section h2{
 }
 
 .portfolio_card h3{
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    min-height: 70px;
 }
 
 .portfolio_card img{
-    width: 90%;
     text-align: center;
     transition:all 0.25s ease;
-}
-
-.portfolio_card img:hover{
-    width: 92%;
+    width: 90%;
+    border-radius: 5px;;
 }
 
 .portfolio_card:hover img {

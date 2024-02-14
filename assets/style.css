@@ -1,13 +1,5 @@
-/*:root {
-    --bck_light: #84C0C8;
-    --bck_dark: #B7B2A0;
-    --header_footer_color: #548C8C;
-    --text_color: #0D0504;
-    --text_color_two: #8C6354;
-    --header_text: #61362E;
-    --link_color: #DA4C1E;
-  }*/
-  :root {
+/* Mobile menu css taken from https://codepen.io/erikterwan/pen/grOZxx */
+:root {
     /* declare a variable with `--` syntax */
     --bck_light: #EBD9B9;
     --bck_color_two: #e0c391;

@@ -12,4 +12,7 @@
 - Contact section includes my email, phone
 - It also includes links my LinkedIn and GitHub profiles
 
+## Note
+- Mobile menu css taken from https://codepen.io/erikterwan/pen/grOZxx. This is included in style.css file.
+
 ## [View the website here](https://cguntur.github.io/chandrika_portfolio/)
